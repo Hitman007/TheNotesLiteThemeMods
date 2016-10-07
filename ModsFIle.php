@@ -10,12 +10,9 @@ Author URI: http://customrayguns.com/
 
 namespace TheNotesLiteThemeMods;
 
-die ('asdf');
-
 add_action( 'wp_footer', 'your_function' );
 
 	//footer-copyright-wrapper
-	
 	
 function your_function() {
 echo '
