@@ -17,12 +17,12 @@ add_action( 'wp_footer', 'your_function' );
 	//footer-copyright-wrapper
 	
 function your_function(){
-	//die('line 18');
+
 echo '
 <script>
-	//jQuery("document").ready(function(){
-		alert("ready!");
-	//});
+	jQuery("document").ready(function(){
+		alert("JQready!");
+	});
 </script>
 ';
 	}
