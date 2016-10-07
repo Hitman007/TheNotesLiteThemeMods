@@ -27,5 +27,5 @@ $output = <<<OUTPUT
 </script>
 OUTPUT;
 
-	return $output;
+	echo $output;
 	}
