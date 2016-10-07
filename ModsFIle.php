@@ -17,9 +17,9 @@ add_action( 'wp_footer', 'your_function' );
 function your_function() {
 echo '
 <script>
-	jQuery("document").ready(function(){
-		alert( "ready!" );
-	});
+	//jQuery("document").ready(function(){
+		alert("ready!");
+	//});
 </script>
 ';
 	}
