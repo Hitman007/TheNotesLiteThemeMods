@@ -13,15 +13,13 @@ Author URI: http://customrayguns.com/
 
 
 add_action( 'wp_footer', 'your_function' );
-
-	//footer-copyright-wrapper
 	
 function your_function(){
 
 echo '
 <script>
 	jQuery("document").ready(function(){
-		alert("JQready!");
+		jQuery(".footer-copyright-wrapper").hide();
 	});
 </script>
 ';
