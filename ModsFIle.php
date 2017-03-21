@@ -22,7 +22,6 @@ $output = <<<OUTPUT
 <script>
 	jQuery("document").ready(function(){
 		jQuery(".footer-copyright-wrapper").html('<span style="float:left;">Copyright <a href = "http://messagetothefish.com">&copy;</a> Message To The Fish. All rights reserved. This site is a <a href = "http://customrayguns.com">Custom Ray Gun.<img align = "MIDDLE" src = "$rayGunIMG_URL" /></a>.</span>');
-		jQuery(".brand").html('<span>Customer Ray Guns</span>');
 	});
 	
 </script>
