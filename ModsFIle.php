@@ -10,7 +10,7 @@ Author URI: http://customrayguns.com/
 
 namespace TheNotesLiteThemeMods;
 
-
+die ('hello');
 
 add_action( 'wp_footer', '\TheNotesLiteThemeMods\recomveCopyrightInfo' );
 	
